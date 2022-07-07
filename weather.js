@@ -32,12 +32,14 @@ function picChg(wthr){
         weatherpic.innerHTML = `<img src="./image/cloudy.jpg" alt="" class="w-100">`
     }else if(wthr=="Rain"||wthr=="Drizzle"){
         weatherpic.innerHTML=`<img src="./image/rainy.jpg" alt="" class="w-100">`
-    }else if(wthr=="Mist" || wthr=="Haze"){
-        weatherpic.innerHTML=`<img src="./image/haze.jpg" alt="" class="w-100">`
+    }else if(wthr=="Mist"){
+        weatherpic.innerHTML=`<img src="./image/mist.jpg" alt="" class="w-100">`
     }else if(wthr=="Clear"){
         weatherpic.innerHTML=`<img src="./image/clear.jpg" alt="" class="w-100">`
     }else if(wthr=="Snow"){
         weatherpic.innerHTML=`<img src="./image/snowy.jpg" alt="" class="w-100">`
+    }else if(wthr=="Haze"){
+        weatherpic.innerHTML=`<img src="./image/haze.webp" alt="" class="w-100">`
     }
     else{
         weatherpic.innerHTML=`<img src="./image/weather.webp" alt="" class="w-100">`
